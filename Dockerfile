@@ -10,5 +10,5 @@ RUN pip install -r requirements.txt
 #RUN pip install virtualenv
 #RUN pip install requests
 ADD main.py /
-#EXPOSE 5000
+#EXPOSE 5000 #port
 CMD ["python3", "./main.py"]
